@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./style(1).css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b800aa751f.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <center>
+        <div class="card_position" id="container"></div>
+    </center>
+
+</body>
+<script>
+    data = {
+        "doctorListing": [
+            {
+                "docName": "Albert",
+                "doctorID": 118,
+                "specialization": "Hematologists‎ ",
+                "qualification": "MD",
+                "rating": 5,
+                "experience": 8,
+                "cost": 1200,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Red Light Area Kolkata",
+                        "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+
+    $(document).ready(function () {
+        data.doctorListing.forEach(item => {
+            $('#container').append(`<div class="row Card">
+                <div class="right_scrollbox">
+                    <h3>`+ item.address[0].addressLineOne + `</h3>
+                    <p>`+ item.address[0].addressLineTwo + `</p>
+                    <hr>
+                    <p>`+ item.address[0].addressLineOne + `</p>
+                    <p>Availability</p>
+                    <div>
+                        <a href="#" class="unavailable"> SUN </a>
+                        <a href="#" class="available"> MON </a>
+                        <a href="#" class="available"> TUE </a>
+                        <a href="#" class="available"> WED </a>
+                        <a href="#" class="available"> THR </a>
+                        <a href="#" class="available"> FRI </a>
+                        <a href="#" class="available"> SAT </a>
+                    </div>
+                    <h4>Time | Amenities</h4>
+                    <div>
+                    <input type="date" name="date">
+                    </div>
+                    <br>
+                    <div >
+                        <button>MORNING</button>
+                        <button> AFTERNOON</button>
+                        <button>EVENING</button>
+                        <button>NIGHT</button>
+                    </div>
+                    <div>
+                        <button>`+ item.slots.morning.startTime + `</button>   
+                    </div>
+                    <p class="amount">Total Amount: ₹1000
+                    <button  class="appoint" >CONFIRM APPOINTMENT</button>
+                     </p>
+                </div>`
+            )
+        })
+
+    });
+</script>
