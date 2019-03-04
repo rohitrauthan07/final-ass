@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b800aa751f.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_4_J1QuneHIcuCZcSRAPtonEdIH2LkwU&callback=initMap">
+        </script>
+    <!-- <script src="./details_json.json"></script> -->
+
+</head>
+
+<body>
+    <div class="row ">
+
+        <nav class=" navbar-default ">
+            <div class="container-fluid ">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><b>Zoyolo</b></a>
+                </div>
+
+                <div class="dropdown">
+
+                    <ul class="nav navbar-nav">
+                        <li class="glyphicon glyphicon-th" data-toggle="dropdown" style="font-size:40px;"> </li> &nbsp;&nbsp;&nbsp;
+                        <ul class="dropdown-menu">
+                            <div class="row">
+                                <div class=" col-sm-4">
+
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                appoint<span class="fa fa-stethoscope" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Cons<span class="fa fa-heart" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Quest <span class="glyphicon glyphicon-phone-alt" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Consul <span class="fa fa-medkit" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+                                </div>
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Insur
+
+                                                <span class="	fa fa-heart-o" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+                                </div>
+
+
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <p>
+                                            Medi
+
+                                            <span class="fa fa-ambulance" style="font-size:20px;"></span>
+
+                                        </p>
+                                        </li>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                care
+                                                <span class="	fa fa-user-md" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Kit <span class="		fa fa-h-square" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+
+                                </div>
+
+
+
+                                <div class="col-sm-4">
+
+
+                                    <a href="#">
+                                        <li>
+                                            <p>
+                                                Hospi<span class="fa fa-hospital-o" style="font-size:20px;"></span>
+
+                                            </p>
+                                        </li>
+                                    </a>
+                                </div>
+                            </div>
+                        </ul>
+
+
+
+
+
+                        <li class="search"><input type="text" class="form-control" id="email" placeholder="Enter Customer Name"></li>
+                        <li><a href="#"><i class="fa fa-search" style="font-size:20px"></i></a></li>
+                    </ul>
+                    <ul>
+                        <li class="login"><a href="#"><b>Login/SignUp</b></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+
+        </nav>
+    </div>
+    <br>
+    <div class="row middelblock">
+        <div class="col-sm-7 left_scrollbox">
+
+            <div class="card_position" id="container">
+
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div id="map"></div>
+            <div id="bookingDiv" class="card_position" style="display:none">
+                <div id="bookingData"></div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-3">
+                <ul>
+                    <li><b>Services</b></li>
+                    <br />
+                    <li>Order Medicines</li>
+                    <li>Book Lab Tests & Packages</li>
+                    <li>Consult Doctor Online</li>
+                    <li>Book Doctor Appointments</li>
+                    <li>Get Wellness Packages</li>
+                    <li>Knowledge Base</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul>
+                    <li><b>List your Practice</b></li>
+                    <br />
+                    <li>Doctors</li>
+                    <li>Labs</li>
+                    <li>Hospitals</li>
+                    <li>Home Healthcare</li>
+                    <li>Others</li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <li><b>Zoylo</b></li>
+                    <br />
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>Cancellation & Refund Policy</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled components">
+                    <li><b> Contact Us</b></li>
+                    <br />
+                    <li><a href="#"><i class="fa fa-send" style="font-size:18px;color:skyblue"></i>Contactus@zoylo.com</a></li>
+                    <li><a href="#"><i class="fa fa-volume-control-phone" style="font-size:20px;color:skyblue"></i>1800 3000
+                            5454</a></li>
+                    <li>Download App</li>
+            </div>
+        </div>
+        <hr />
+        <div class="row copyright">© 2018 Zoylo Digihealth Pvt. Ltd. All Rights Reserved.</div>
+    </div>
+</body>
+
+</html>
+<script>
+    data = {
+        "doctorListing": [
+        {
+                "docName": "Shashank",
+                "doctorID": 100,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 5,
+                "experience": 7,
+                "cost": 500,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Amarleela Hospital - Janakpuri",
+                        "addressLineTwo": "No B-1/6, Block B1New Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Priyam",
+                "doctorID": 100,
+                "specialization": "Cardiologists‎ ",
+                "qualification": "MD",
+                "rating": 5,
+                "experience": 11,
+                "cost": 1500,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Agarwal Ortho & Skin Clinic",
+                        "addressLineTwo": "# C-2c/12/138, Pocket 12, nullNew Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+
+
+
+
+            {
+                "docName": "Rahul",
+                "doctorID": 101,
+                "specialization": "Dental",
+                "qualification": "MBBS",
+                "rating": 4,
+                "experience": 2,
+                "cost": 1800,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Khetrapal Nursing Home",
+                        "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "docName": "Vivek",
+                "doctorID": 102,
+                "specialization": "Geriatricians‎",
+                "qualification": "BDS",
+                "rating": 3,
+                "experience": 2,
+                "cost": 1500,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Khanna Hospital - Janakpuri",
+                        "addressLineTwo": "No C-2/396, C4 D Block, C-2 BlockNew Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+
+            {
+                "docName": "Shivam",
+                "doctorID": 103,
+                "specialization": "Gastroenterologists‎",
+                "qualification": "MD",
+                "rating": 2,
+                "experience": 8,
+                "cost": 500,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "World Brain Center Hospital - Raghu Nagar",
+                        "addressLineTwo": "Plot No 24, Kh No: 15/4/1/4/2, Syndicate EnclaveNew Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "docName": "Sumankaur",
+                "doctorID": 104,
+                "specialization": "Allergologists‎",
+                "qualification": "DO",
+                "rating": 5,
+                "experience": 10,
+                "cost": 1000,
+                "gender": "Female",
+                "address": [
+                    {
+                        "addressLineOne": "Jeewan Mala Hospital Pvt Ltd - Central",
+                        "addressLineTwo": "No 67/1, Guru Gobind Singh Marg, New Rohtak Road, Karol BaghNew Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "docName": "Anjusharma",
+                "doctorID": 105,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 4,
+                "experience": 10,
+                "cost": 500,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "B M Gupta Hospital Pvt Ltd",
+                        "addressLineTwo": "H-11 To H-15, Arya Samaj RoadNew Delhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "docName": "David",
+                "doctorID": 106,
+                "specialization": "Diabetologists‎ ",
+                "qualification": "MBBS",
+                "rating": 2,
+                "experience": 9,
+                "cost": 1500,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "Sri Ganesh Psychiatry Clinic",
+                        "addressLineTwo": "AB - 206, AB BlockDelhi, Delhi",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 28.7,
+                            "gpsLongitude": 77.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Anu",
+                "doctorID": 106,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 2.6,
+                "experience": 3,
+                "cost": 250,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "Khetrapal Nursing Home",
+                        "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 37.7,
+                            "gpsLongitude": 80.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Anurag",
+                "doctorID": 107,
+                "specialization": "Dental",
+                "qualification": "MDS",
+                "rating": 4,
+                "experience": 6,
+                "cost": 200,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "B-25/1, Ground Floor, Paper Market Road",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Government Girls Schoo",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 25.7,
+                            "gpsLongitude": 59.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            }, {
+                "docName": "Daisy",
+                "doctorID": 102,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 2,
+                "experience": 1,
+                "cost": 50,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "Khetrapal Nursing Home",
+                        "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 33.7,
+                            "gpsLongitude": 80.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Rohit",
+                "doctorID": 108,
+                "specialization": "Dental",
+                "qualification": "MDS",
+                "rating": 3,
+                "experience": 10,
+                "cost": 200,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Surya Mandir",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 27.7,
+                            "gpsLongitude": 40.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Romil",
+                "doctorID": 109,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 3.5,
+                "experience": 10,
+                "cost": 200,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "E-369, Shop # 3, Double Storey, nul",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 30.7,
+                            "gpsLongitude": 40.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "docName": "Naresh",
+                "doctorID": 110,
+                "specialization": "Dental",
+                "qualification": "MDS",
+                "rating": 3.5,
+                "experience": 11,
+                "cost": 200,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "E-369, Shop # 3, Double Storey",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 47.7,
+                            "gpsLongitude": 66.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Poonam",
+                "doctorID": 111,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 5,
+                "experience": 20,
+                "cost": 1200,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "Paschim Vihar, near by Near Gurudwara",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Poorvi",
+                "doctorID": 112,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 5,
+                "experience": 10,
+                "cost": 1800,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "Paschim Vihar, near by Near Gurudwara",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 44.7,
+                            "gpsLongitude": 41.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Naveen",
+                "doctorID": 113,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 5,
+                "experience": 20,
+                "cost": 120,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Nitin",
+                "doctorID": 114,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 2,
+                "experience": 20,
+                "cost": 120,
+                "gender": "male",
+                "address": [
+                    {
+                        "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            }, {
+                "docName": "Shivani",
+                "doctorID": 115,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 3,
+                "experience": 10,
+                "cost": 100,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Ratisha",
+                "doctorID": 116,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 3,
+                "experience": 20,
+                "cost": 600,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Ritu",
+                "doctorID": 117,
+                "specialization": "Dental",
+                "qualification": "MDS",
+                "rating": 3.8,
+                "experience": 6,
+                "cost": 1600,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "sima",
+                "doctorID": 118,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 3.9,
+                "experience": 20,
+                "cost": 660,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                        "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            },
+            {
+                "docName": "Panna",
+                "doctorID": 119,
+                "specialization": "Dental",
+                "qualification": "BDS",
+                "rating": 2,
+                "experience": 40,
+                "cost": 600,
+                "gender": "female",
+                "address": [
+                    {
+                        "addressLineOne": "B-7/11,Ring Road, Block B",
+                        "addressLineTwo": "Rajouri Garden, near by Near Guru Nanak Marble House",
+                        "city": "New Delhi",
+                        "state": "Delhi",
+                        "gpsCoordinates": {
+                            "gpsLatitude": 56.7,
+                            "gpsLongitude": 43.8
+                        }
+                    }
+                ],
+                "slots": {
+                    "slotInterval": 15,
+                    "morning": [
+                        {
+                            "startTime": "08:00",
+                            "endTime": "10:00"
+                        }
+                    ],
+                    "afternoon": [
+                        {
+                            "startTime": "10:00",
+                            "endTime": "15:00"
+                        }
+                    ],
+                    "evening": [
+                        {
+                            "startTime": "15:00",
+                            "endTime": "18:00"
+                        }
+                    ],
+                    "night": [
+                        {
+                            "startTime": "18:00",
+                            "endTime": "22:00"
+                        }
+                    ]
+                }
+            }
+
+        ]
+    }
+    $(document).ready(function () {
+        data.doctorListing.forEach(item => {
+            $('#container').append(`<div class="row Card">
+					<div class="col-md-3">
+                        <div class="Pic">
+                            <img src="https://zoylo-images.s3-ap-southeast-1.amazonaws.com/files/b8f21fe6-9900-49b4-9653-8effaed89e1e-Doctors-Female.jpg">
+                        </div>
+					</div>
+					<div class="col-md-9">
+						<div class="row Details">
+							<div class="col-md-6 DetailsColI">
+								<p class="Name">`+ item.docName + `</p>
+								<p class="Qualification">`+ item.qualification + `</p>
+								<p class="Specialisation">`+ item.specialization + ` ( ` + item.experience + ` years )</p>
+							</div>
+							<div class="col-md-6 DetailsColII">
+								<div class="Address">
+									<div><i class="fas fa-map-marker-alt"></i></div>
+									<div>
+										<p>`+ item.address[0].addressLineOne + `</p>
+										<p>`+ item.address[0].addressLineTwo + `</p>
+										<p>`+ item.address[0].city + ` | ` + item.address[0].state + `</p>
+									</div>
+								</div>
+								<p class="Cost"><i class="fas fa-rupee-sign"></i>`+ item.cost + `</p>
+							</div>
+						</div>
+					</div>
+					<div class="Book">
+						<button id=`+ item.doctorID + `>BOOK</button>
+					</div>
+				</div>`
+            )
+        })
+
+    });
+    $(document).ready(function () {
+        $("button").bind("click", setvalue1)
+        function setvalue1() {
+            let id = $(this).attr('id');
+            for (let index = 0; index < data.doctorListing.length; index++) {
+                if (data.doctorListing[index].doctorID == $(this).attr('id')) {
+                    var a = JSON.stringify(data.doctorListing[index])
+                    localStorage.setItem("Doctor_Data", a);
+                    var x = document.getElementById('map');
+                    x.style.display = "none";
+                    var y = document.getElementById('bookingDiv');
+                    y.style.display = 'block';
+                }
+            }
+            var bookingData = document.getElementById('bookingData');
+            console.log(bookingData);
+            
+            if (!!bookingData) {
+                bookingData.remove();
+            }
+            doctor = localStorage.getItem("Doctor_Data");
+            doctor = JSON.parse(doctor);
+            $('#bookingDiv').append(`<div id = "bookingData"><div class="row Card">
+
+                <div class="right_scrollbox">
+                    <h3>`+ doctor.address[0].addressLineOne + `</h3>
+                    <p>`+ doctor.address[0].addressLineTwo + `</p>
+                    <hr>
+                    <p>`+ doctor.address[0].addressLineOne + `</p>
+                    <p>Availability</p>
+                    <div>
+                        <a href="#" class="unavailable"> SUN </a>
+                        <a href="#" class="available"> MON </a>
+                        <a href="#" class="available"> TUE </a>
+                        <a href="#" class="available"> WED </a>
+                        <a href="#" class="available"> THR </a>
+                        <a href="#" class="available"> FRI </a>
+                        <a href="#" class="available"> SAT </a>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <button onClick="document.getElementById('hideTime').style.display='block';document.getElementById('hideapp').style.display='none'">Time</button>   
+                        &nbsp; <b>|</b> &nbsp;
+                        <button onClick="document.getElementById('hideTime').style.display='none';document.getElementById('hideapp').style.display='block'">Amenities</button>
+                    </div>
+                    <br>
+                    <div id="hideTime" style="display: block">
+                        <div>                 
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            <span id="datespan"><input type="date" value="2013-12-28" id="datepicker"></span>
+                            <span id="littleLeft" class="glyphicon glyphicon-chevron-down"></span>
+                        </div>
+                        <br>
+                        <div>
+                            <span onclick="document.getElementById('fourBox4').style.display='none';document.getElementById('fourBox1').style.display='block';document.getElementById('fourBox2').style.display='none';document.getElementById('fourBox3').style.display='none'" id="weatherspan1">&nbsp;&nbsp;MORNING</a></span>
+                            <span onclick="document.getElementById('fourBox4').style.display='none';document.getElementById('fourBox1').style.display='none';document.getElementById('fourBox2').style.display='block';document.getElementById('fourBox3').style.display='none'" id="weatherspan2">&nbsp;&nbsp;AFTERNOON</a></span>
+                            <span onclick="document.getElementById('fourBox4').style.display='none';document.getElementById('fourBox1').style.display='none';document.getElementById('fourBox2').style.display='none';document.getElementById('fourBox3').style.display='block'" id="weatherspan3">&nbsp;&nbsp;EVENING</a></span>
+                            <span onclick="document.getElementById('fourBox4').style.display='block';document.getElementById('fourBox1').style.display='none';document.getElementById('fourBox2').style.display='none';document.getElementById('fourBox3').style.display='none'" id="weatherspan4">&nbsp;&nbsp;NIGHT</a></span>
+                        </div>
+                        <br>
+                        <div id="appointDiv">
+                            <div id="fourBox1" style="display: none;color: red">Coming soon!</div>
+                            <div id="fourBox2" style="display: none;color: green">Coming soon!</div>
+                            <div id="fourBox3" style="display: none;color: black">Coming soon!</div>
+                            <div id="fourBox4" style="display: none;color: purple">Coming soon!</div>
+                        </div>
+                    </div>    
+                    <div id="hideapp" style="display: none">
+                        <ul>
+                            <li>Car Parking</li>
+                            <li>Bike Parking</li>
+                        </ul>
+                    </div>
+                    </br></br>
+                    <div id="Amount">
+ <span>TOTAL AMOUNT </span>
+ <span><b>:</b></span>
+ <span>&#x20b9;</span>
+ <span id="Amount">`+ doctor.cost + `&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+ <span class="app"><button class="appoint">CONFIRM APPOINTMENT</button></span>
+ </div>
+ </div>`
+            )
+
+        }
+
+
+    })
+
+
+    //map functionality
+
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 5,
+            center: new google.maps.LatLng(28.7041, 77.1025),
+            mapTypeId: 'terrain'
+        });
+        var infowindow = new google.maps.InfoWindow();
+        for (var index = 0; index < data.doctorListing.length; index++) {
+            var latitude = data.doctorListing[index].address[0].gpsCoordinates.gpsLatitude;
+            var longitude = data.doctorListing[index].address[0].gpsCoordinates.gpsLongitude;
+            var latLng = new google.maps.LatLng(latitude, longitude);
+            var marker = new google.maps.Marker({
+                position: latLng,
+                map: map
+            });
+            google.maps.event.addListener(marker, 'click', (function (marker, index) {
+                return function () {
+                    for (index = 0; index < data.doctorListing.length; index++) {
+                        infowindow.setContent(data[index][0]);
+                        infowindow.open(map, marker);
+                    }
+                }
+            })(marker, index));
+            getDistance(map['center'], latLng);
+        }
+
+    }
+    function rad(param) {
+        return param * Math.PI / 180;
+    }
+    function getDistance(location1, location2) {
+        var R = 6378137;
+        var dLat = rad(location1.lat() - location2.lat());
+        var dLong = rad(location1.lng() - location2.lng());
+        var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(rad(location1.lat())) * Math.cos(rad(location2.lat())) *
+            Math.sin(dLong / 2) * Math.sin(dLong / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        var d = R * c;
+        console.log(d);
+    }
+
+   
+
+
+</script>
+<script>
+    $(document).ready(function () {
+        $(".app").click(function () {
+            alert("booking confirmed");
+
+        });
+    });
+</script>

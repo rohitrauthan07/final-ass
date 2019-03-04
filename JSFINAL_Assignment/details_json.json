@@ -1,0 +1,1039 @@
+{
+    "doctorListing": [
+        {
+            "docName": "Shashank",
+            "doctorID": 100,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 5,
+            "experience": 7,
+            "cost": 500,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "Khetrapal Nursing Home",
+                    "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 28.7,
+                        "gpsLongitude": 77.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Shasi",
+            "doctorID": 101,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 4,
+            "experience": 2,
+            "cost": 200,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "No. A1, , Block E, Ramesh Nagar",
+                    "addressLineTwo": "Ramesh Nagar, near by Opp. Metro Pillar No. 340",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 26.7,
+                        "gpsLongitude": 71.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Daisy",
+            "doctorID": 102,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2,
+            "experience": 1,
+            "cost": 50,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Khetrapal Nursing Home",
+                    "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 33.7,
+                        "gpsLongitude": 80.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Rohan",
+            "doctorID": 103,
+            "specialization": "Dental",
+            "qualification": "MDS",
+            "rating": 4,
+            "experience": 6,
+            "cost": 200,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "B-25/1, Ground Floor, Paper Market Road",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Government Girls Schoo",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 11.7,
+                        "gpsLongitude": 51.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },{
+            "docName": "Daisy",
+            "doctorID": 104,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2,
+            "experience": 1,
+            "cost": 50,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Khetrapal Nursing Home",
+                    "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 33.7,
+                        "gpsLongitude": 80.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Seema",
+            "doctorID": 105,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 5,
+            "experience": 6,
+            "cost": 210,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "B-25/1, Ground Floor, Paper Market Road",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Government Girls Schoo",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 17.7,
+                        "gpsLongitude": 51.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Anu",
+            "doctorID": 106,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2.6,
+            "experience": 3,
+            "cost": 250,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Khetrapal Nursing Home",
+                    "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 37.7,
+                        "gpsLongitude": 80.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Anurag",
+            "doctorID": 107,
+            "specialization": "Dental",
+            "qualification": "MDS",
+            "rating": 4,
+            "experience": 6,
+            "cost": 200,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "B-25/1, Ground Floor, Paper Market Road",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Government Girls Schoo",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 25.7,
+                        "gpsLongitude": 59.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },{
+            "docName": "Daisy",
+            "doctorID": 102,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2,
+            "experience": 1,
+            "cost": 50,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Khetrapal Nursing Home",
+                    "addressLineTwo": "Gn 5, F N g Sector Rajouri Garden",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 33.7,
+                        "gpsLongitude": 80.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Rohit",
+            "doctorID": 108,
+            "specialization": "Dental",
+            "qualification": "MDS",
+            "rating": 3,
+            "experience": 10,
+            "cost": 200,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Surya Mandir",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 27.7,
+                        "gpsLongitude": 40.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Romil",
+            "doctorID": 109,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 3.5,
+            "experience": 10,
+            "cost": 200,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "E-369, Shop # 3, Double Storey, nul",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 30.7,
+                        "gpsLongitude": 40.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "docName": "Naresh",
+            "doctorID": 110,
+            "specialization": "Dental",
+            "qualification": "MDS",
+            "rating": 3.5,
+            "experience": 11,
+            "cost": 200,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "E-369, Shop # 3, Double Storey",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 47.7,
+                        "gpsLongitude": 66.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Poonam",
+            "doctorID": 111,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 5,
+            "experience": 20,
+            "cost": 1200,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Paschim Vihar, near by Near Gurudwara",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Poorvi",
+            "doctorID": 112,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 5,
+            "experience": 10,
+            "cost": 1800,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "Paschim Vihar, near by Near Gurudwara",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 44.7,
+                        "gpsLongitude": 41.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Naveen",
+            "doctorID": 113,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 5,
+            "experience": 20,
+            "cost": 120,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Nitin",
+            "doctorID": 114,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2,
+            "experience": 20,
+            "cost": 120,
+            "gender": "male",
+            "address": [
+                {
+                    "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },{
+            "docName": "Shivani",
+            "doctorID": 115,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 3,
+            "experience": 10,
+            "cost": 100,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "F - 16, Gali No: 12, Main Road Rajapuri",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Ratisha",
+            "doctorID": 116,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 3,
+            "experience": 20,
+            "cost": 600,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Ritu",
+            "doctorID": 117,
+            "specialization": "Dental",
+            "qualification": "MDS",
+            "rating": 3.8,
+            "experience": 6,
+            "cost": 1600,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "sima",
+            "doctorID": 118,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 3.9,
+            "experience": 20,
+            "cost": 660,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "B-20/11, Shop No 2, Double Storey",
+                    "addressLineTwo": "Ramesh Nagar, near by Near Desu Office",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        },
+        {
+            "docName": "Panna",
+            "doctorID": 119,
+            "specialization": "Dental",
+            "qualification": "BDS",
+            "rating": 2,
+            "experience": 40,
+            "cost": 600,
+            "gender": "female",
+            "address": [
+                {
+                    "addressLineOne": "B-7/11,Ring Road, Block B",
+                    "addressLineTwo": "Rajouri Garden, near by Near Guru Nanak Marble House",
+                    "city": "New Delhi",
+                    "state": "Delhi",
+                    "gpsCoordinates": {
+                        "gpsLatitude": 56.7,
+                        "gpsLongitude": 43.8
+                    }
+                }
+            ],
+            "slots": {
+                "slotInterval": 15,
+                "morning": [
+                    {
+                        "startTime": "08:00",
+                        "endTime": "10:00"
+                    }
+                ],
+                "afternoon": [
+                    {
+                        "startTime": "10:00",
+                        "endTime": "15:00"
+                    }
+                ],
+                "evening": [
+                    {
+                        "startTime": "15:00",
+                        "endTime": "18:00"
+                    }
+                ],
+                "night": [
+                    {
+                        "startTime": "18:00",
+                        "endTime": "22:00"
+                    }
+                ]
+            }
+        }
+        
+    
+        
+    
+        
+    
+        
+    
+    ]
+}
